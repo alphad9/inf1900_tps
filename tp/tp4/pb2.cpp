@@ -1,5 +1,8 @@
 //Probleme 2 du TP4 de INF1900
 #include <avr/interrupt.h>
+#define F_CPU 8000000
+#include <avr/io.h>
+#include <util/delay.h>
 
 volatile uint8_t gMinuterieExpiree;
 
